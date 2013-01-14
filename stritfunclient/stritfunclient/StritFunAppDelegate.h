@@ -6,6 +6,7 @@
 //  Copyright (c) 2013 ibrahim gurses. All rights reserved.
 //
 
+
 #import <UIKit/UIKit.h>
 
 @interface StritFunAppDelegate : UIResponder <UIApplicationDelegate>
