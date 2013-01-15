@@ -24,6 +24,8 @@
 		1F5921EC16A40643000A2B9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5921C416A40643000A2B9A /* Foundation.framework */; };
 		1F5921F416A40643000A2B9A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F5921F216A40643000A2B9A /* InfoPlist.strings */; };
 		1F5921F716A40643000A2B9A /* stritfunclientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5921F616A40643000A2B9A /* stritfunclientTests.m */; };
+		512A6C5E16A4BC4500865E57 /* mainWin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512A6C5D16A4BC4500865E57 /* mainWin.xib */; };
+		512A6C6516A4BE5E00865E57 /* registration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512A6C6416A4BE5E00865E57 /* registration.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		1F5921F316A40643000A2B9A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F5921F516A40643000A2B9A /* stritfunclientTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stritfunclientTests.h; sourceTree = "<group>"; };
 		1F5921F616A40643000A2B9A /* stritfunclientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stritfunclientTests.m; sourceTree = "<group>"; };
+		512A6C5D16A4BC4500865E57 /* mainWin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = mainWin.xib; sourceTree = "<group>"; };
+		512A6C6416A4BE5E00865E57 /* registration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = registration.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		1F5921B316A40643000A2B9A = {
 			isa = PBXGroup;
 			children = (
+				512A6C6616A4C07900865E57 /* ui */,
 				1F5921C816A40643000A2B9A /* stritfunclient */,
 				1F5921EF16A40643000A2B9A /* stritfunclientTests */,
 				1F5921C116A40643000A2B9A /* Frameworks */,
@@ -163,6 +168,15 @@
 				1F5921F216A40643000A2B9A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		512A6C6616A4C07900865E57 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				512A6C6416A4BE5E00865E57 /* registration.xib */,
+				512A6C5D16A4BC4500865E57 /* mainWin.xib */,
+			);
+			name = ui;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +256,8 @@
 				1F5921D716A40643000A2B9A /* Default@2x.png in Resources */,
 				1F5921D916A40643000A2B9A /* Default-568h@2x.png in Resources */,
 				1F5921DC16A40643000A2B9A /* MainStoryboard.storyboard in Resources */,
+				512A6C5E16A4BC4500865E57 /* mainWin.xib in Resources */,
+				512A6C6516A4BE5E00865E57 /* registration.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +470,7 @@
 				1F5921FC16A40643000A2B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F5921FD16A40643000A2B9A /* Build configuration list for PBXNativeTarget "stritfunclientTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +479,7 @@
 				1F5921FF16A40643000A2B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
